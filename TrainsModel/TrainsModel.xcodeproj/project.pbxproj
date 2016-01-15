@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E7A28971C49219B00FF97B9 /* TrainsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7A28961C49219B00FF97B9 /* TrainsModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7A28B81C4921A900FF97B9 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A28A21C4921A900FF97B9 /* DDXMLElementAdditions.m */; };
+		8E7A28BA1C4921A900FF97B9 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A28A51C4921A900FF97B9 /* NSString+DDXML.m */; };
+		8E7A28BD1C4921A900FF97B9 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A28A81C4921A900FF97B9 /* DDXMLDocument.m */; };
+		8E7A28BF1C4921A900FF97B9 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A28AA1C4921A900FF97B9 /* DDXMLElement.m */; };
+		8E7A28C11C4921A900FF97B9 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A28AC1C4921A900FF97B9 /* DDXMLNode.m */; };
+		8E7A28C41C4921A900FF97B9 /* TMStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A28B11C4921A900FF97B9 /* TMStation.m */; };
+		8E7A28C51C4921A900FF97B9 /* TMServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7A28B31C4921A900FF97B9 /* TMServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7A28C61C4921A900FF97B9 /* TMServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A28B41C4921A900FF97B9 /* TMServerConnection.m */; };
+		8E7A28C71C4921A900FF97B9 /* TMConstans.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7A28B51C4921A900FF97B9 /* TMConstans.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7A28C81C4921A900FF97B9 /* TMConstans.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A28B61C4921A900FF97B9 /* TMConstans.m */; };
+		8E7A28EE1C492A2500FF97B9 /* TMStation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7A28B01C4921A900FF97B9 /* TMStation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7A28F11C49395D00FF97B9 /* TMTrainMovment.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7A28EF1C49395D00FF97B9 /* TMTrainMovment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7A28F21C49395D00FF97B9 /* TMTrainMovment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A28F01C49395D00FF97B9 /* TMTrainMovment.m */; };
+		8E7A28F51C493B7A00FF97B9 /* TMStationData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7A28F31C493B7A00FF97B9 /* TMStationData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7A28F61C493B7A00FF97B9 /* TMStationData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7A28F41C493B7A00FF97B9 /* TMStationData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E7A28931C49219B00FF97B9 /* TrainsModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TrainsModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7A28961C49219B00FF97B9 /* TrainsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainsModel.h; sourceTree = "<group>"; };
+		8E7A28981C49219B00FF97B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7A28A11C4921A900FF97B9 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		8E7A28A21C4921A900FF97B9 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		8E7A28A41C4921A900FF97B9 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		8E7A28A51C4921A900FF97B9 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		8E7A28A61C4921A900FF97B9 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		8E7A28A71C4921A900FF97B9 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		8E7A28A81C4921A900FF97B9 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		8E7A28A91C4921A900FF97B9 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		8E7A28AA1C4921A900FF97B9 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		8E7A28AB1C4921A900FF97B9 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		8E7A28AC1C4921A900FF97B9 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		8E7A28AE1C4921A900FF97B9 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		8E7A28B01C4921A900FF97B9 /* TMStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMStation.h; sourceTree = "<group>"; };
+		8E7A28B11C4921A900FF97B9 /* TMStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMStation.m; sourceTree = "<group>"; };
+		8E7A28B31C4921A900FF97B9 /* TMServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMServerConnection.h; sourceTree = "<group>"; };
+		8E7A28B41C4921A900FF97B9 /* TMServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMServerConnection.m; sourceTree = "<group>"; };
+		8E7A28B51C4921A900FF97B9 /* TMConstans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMConstans.h; sourceTree = "<group>"; };
+		8E7A28B61C4921A900FF97B9 /* TMConstans.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMConstans.m; sourceTree = "<group>"; };
+		8E7A28EF1C49395D00FF97B9 /* TMTrainMovment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMTrainMovment.h; sourceTree = "<group>"; };
+		8E7A28F01C49395D00FF97B9 /* TMTrainMovment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMTrainMovment.m; sourceTree = "<group>"; };
+		8E7A28F31C493B7A00FF97B9 /* TMStationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMStationData.h; sourceTree = "<group>"; };
+		8E7A28F41C493B7A00FF97B9 /* TMStationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMStationData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7A288F1C49219B00FF97B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E7A28891C49219B00FF97B9 = {
+			isa = PBXGroup;
+			children = (
+				8E7A28951C49219B00FF97B9 /* TrainsModel */,
+				8E7A28941C49219B00FF97B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7A28941C49219B00FF97B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A28931C49219B00FF97B9 /* TrainsModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7A28951C49219B00FF97B9 /* TrainsModel */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A289E1C4921A900FF97B9 /* External */,
+				8E7A28AF1C4921A900FF97B9 /* Model */,
+				8E7A28B21C4921A900FF97B9 /* Netwoeking */,
+				8E7A28B51C4921A900FF97B9 /* TMConstans.h */,
+				8E7A28B61C4921A900FF97B9 /* TMConstans.m */,
+				8E7A28961C49219B00FF97B9 /* TrainsModel.h */,
+				8E7A28981C49219B00FF97B9 /* Info.plist */,
+			);
+			path = TrainsModel;
+			sourceTree = "<group>";
+		};
+		8E7A289E1C4921A900FF97B9 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A289F1C4921A900FF97B9 /* KissXML */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		8E7A289F1C4921A900FF97B9 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A28A01C4921A900FF97B9 /* Additions */,
+				8E7A28A31C4921A900FF97B9 /* Categories */,
+				8E7A28A61C4921A900FF97B9 /* DDXML.h */,
+				8E7A28A71C4921A900FF97B9 /* DDXMLDocument.h */,
+				8E7A28A81C4921A900FF97B9 /* DDXMLDocument.m */,
+				8E7A28A91C4921A900FF97B9 /* DDXMLElement.h */,
+				8E7A28AA1C4921A900FF97B9 /* DDXMLElement.m */,
+				8E7A28AB1C4921A900FF97B9 /* DDXMLNode.h */,
+				8E7A28AC1C4921A900FF97B9 /* DDXMLNode.m */,
+				8E7A28AD1C4921A900FF97B9 /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		8E7A28A01C4921A900FF97B9 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A28A11C4921A900FF97B9 /* DDXMLElementAdditions.h */,
+				8E7A28A21C4921A900FF97B9 /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		8E7A28A31C4921A900FF97B9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A28A41C4921A900FF97B9 /* NSString+DDXML.h */,
+				8E7A28A51C4921A900FF97B9 /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8E7A28AD1C4921A900FF97B9 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A28AE1C4921A900FF97B9 /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		8E7A28AF1C4921A900FF97B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A28B01C4921A900FF97B9 /* TMStation.h */,
+				8E7A28B11C4921A900FF97B9 /* TMStation.m */,
+				8E7A28EF1C49395D00FF97B9 /* TMTrainMovment.h */,
+				8E7A28F01C49395D00FF97B9 /* TMTrainMovment.m */,
+				8E7A28F31C493B7A00FF97B9 /* TMStationData.h */,
+				8E7A28F41C493B7A00FF97B9 /* TMStationData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E7A28B21C4921A900FF97B9 /* Netwoeking */ = {
+			isa = PBXGroup;
+			children = (
+				8E7A28B31C4921A900FF97B9 /* TMServerConnection.h */,
+				8E7A28B41C4921A900FF97B9 /* TMServerConnection.m */,
+			);
+			path = Netwoeking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8E7A28901C49219B00FF97B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7A28EE1C492A2500FF97B9 /* TMStation.h in Headers */,
+				8E7A28971C49219B00FF97B9 /* TrainsModel.h in Headers */,
+				8E7A28C51C4921A900FF97B9 /* TMServerConnection.h in Headers */,
+				8E7A28C71C4921A900FF97B9 /* TMConstans.h in Headers */,
+				8E7A28F51C493B7A00FF97B9 /* TMStationData.h in Headers */,
+				8E7A28F11C49395D00FF97B9 /* TMTrainMovment.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8E7A28921C49219B00FF97B9 /* TrainsModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7A289B1C49219B00FF97B9 /* Build configuration list for PBXNativeTarget "TrainsModel" */;
+			buildPhases = (
+				8E7A288E1C49219B00FF97B9 /* Sources */,
+				8E7A288F1C49219B00FF97B9 /* Frameworks */,
+				8E7A28901C49219B00FF97B9 /* Headers */,
+				8E7A28911C49219B00FF97B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainsModel;
+			productName = TrainsModel;
+			productReference = 8E7A28931C49219B00FF97B9 /* TrainsModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7A288A1C49219B00FF97B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Figure8;
+				TargetAttributes = {
+					8E7A28921C49219B00FF97B9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8E7A288D1C49219B00FF97B9 /* Build configuration list for PBXProject "TrainsModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8E7A28891C49219B00FF97B9;
+			productRefGroup = 8E7A28941C49219B00FF97B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E7A28921C49219B00FF97B9 /* TrainsModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7A28911C49219B00FF97B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7A288E1C49219B00FF97B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7A28BF1C4921A900FF97B9 /* DDXMLElement.m in Sources */,
+				8E7A28F61C493B7A00FF97B9 /* TMStationData.m in Sources */,
+				8E7A28C81C4921A900FF97B9 /* TMConstans.m in Sources */,
+				8E7A28F21C49395D00FF97B9 /* TMTrainMovment.m in Sources */,
+				8E7A28C11C4921A900FF97B9 /* DDXMLNode.m in Sources */,
+				8E7A28B81C4921A900FF97B9 /* DDXMLElementAdditions.m in Sources */,
+				8E7A28C41C4921A900FF97B9 /* TMStation.m in Sources */,
+				8E7A28BD1C4921A900FF97B9 /* DDXMLDocument.m in Sources */,
+				8E7A28BA1C4921A900FF97B9 /* NSString+DDXML.m in Sources */,
+				8E7A28C61C4921A900FF97B9 /* TMServerConnection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E7A28991C49219B00FF97B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E7A289A1C49219B00FF97B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E7A289C1C49219B00FF97B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TrainsModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.figure8.TrainsModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8E7A289D1C49219B00FF97B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TrainsModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.figure8.TrainsModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7A288D1C49219B00FF97B9 /* Build configuration list for PBXProject "TrainsModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7A28991C49219B00FF97B9 /* Debug */,
+				8E7A289A1C49219B00FF97B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7A289B1C49219B00FF97B9 /* Build configuration list for PBXNativeTarget "TrainsModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7A289C1C49219B00FF97B9 /* Debug */,
+				8E7A289D1C49219B00FF97B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E7A288A1C49219B00FF97B9 /* Project object */;
+}
